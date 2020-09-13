@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![Type Race page](/images/Type-Race.png)
+![Type Race page](/images/Type-race.png)
 ## Available Scripts
 
 In the project directory, you can run:

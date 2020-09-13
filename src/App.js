@@ -42,14 +42,14 @@ const App = () => {
   });
   return (
     <div className = "container">
-      <svg className = "curve-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,96L0,64L1440,64L1440,0L0,0L0,0Z"></path></svg>
+      <div className = "curve-top"></div>
       <h2>Type Race</h2>
-      <hr/>
       <h3>Snippet</h3>
       <p>{snippet}</p>
       <h4>{gameState.victory ? `Done!! Time: ${gameState.endTime}ms`: null}</h4>
       <input className = "form-control" onChange = {updateUserText} value = {userText}/>
       <hr/>
+      <p><strong>Select a snippet</strong></p>
       {
         Snippets.map((Snippet, index) => (
           <button className = "btn btn-outline-danger" onClick = {chooseSnippet(index)} 

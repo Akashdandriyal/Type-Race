@@ -1,9 +1,16 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  color: rgb(80, 76, 76);
+}
 
 .curve-top {
   position: absolute;
+  width: 100vw;
+  height: 45px;
   top: 0;
   left: 0;
   z-index: -1;
+  background-color: #ff5500;
 }
 
 .curve-bottom {
@@ -11,6 +18,12 @@
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .btn{

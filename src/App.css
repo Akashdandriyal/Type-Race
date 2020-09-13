@@ -13,13 +13,6 @@ body {
   background-color: #ff5500;
 }
 
-.curve-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
 h2 {
   font-family: 'Merriweather', serif;
   color: #ffffff;
@@ -30,4 +23,26 @@ h2 {
   width: 150px;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  color: #ffffff;
+  width: 100vw;
+  left: 0;
+}
+
+.bottom-text p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.curve-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
